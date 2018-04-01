@@ -23,6 +23,10 @@ http://localhost
 
 ตัวอย่าง
 
+เข้าไปยัง service php
+
+docker exec -it php72-fpm sh
+
 chown -R www-data.www-data joomla-dev
 
 กำหนดสิทธ์ให้ folder project อยู่ในกลุ่มของ www-data 
