@@ -20,3 +20,11 @@ docker-compose up -d
 http://localhost
 
 เขียน code php ไว้ใน folder "www"
+
+ตัวอย่าง
+
+chown -R www-data.www-data joomla-dev
+
+กำหนดสิทธ์ให้ folder project อยู่ในกลุ่มของ www-data 
+
+เพื่อให้สามารถอัพโหลดไฟล์ได้โดยไม่ต้องกำหนดสิทธ์บาง folder เป็ย 777
