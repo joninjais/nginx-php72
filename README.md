@@ -32,3 +32,7 @@ chown -R www-data.www-data joomla-dev
 กำหนดสิทธ์ให้ folder project อยู่ในกลุ่มของ www-data 
 
 เพื่อให้สามารถอัพโหลดไฟล์ได้โดยไม่ต้องกำหนดสิทธ์บาง folder เป็ย 777
+
+connect กับ database ของ CONTAINER ที่อยู่นอก docker-compose
+
+docker network connect nginxphp72_default pg11354
