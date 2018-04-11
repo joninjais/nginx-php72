@@ -1,7 +1,7 @@
 # nginx-php72
 docker webserver
 
-nginx+php7.2+mariadb+postgres
+nginx:alpine + php:7-fpm-alpine+ComposerV1.6.3 + mariadb:10.1 + postgres:9.6 + phpmyadmin/phpmyadmin
 
 port ที่ใช้ เปลี่ยน port ก่อนใช้งาน ถ้า port 80,3306,5432 มีการใช้งานอยู่
 
