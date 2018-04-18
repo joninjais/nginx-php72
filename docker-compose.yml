@@ -45,7 +45,7 @@ services:
         PMA_HOST: db
         MYSQL_ROOT_PASSWORD: password#dd
   pgdb:
-      image: postgres:9.6
+      image: joninjais/pg96db
       container_name: pgdb
       environment:
         POSTGRES_PASSWORD: postgres#dd
